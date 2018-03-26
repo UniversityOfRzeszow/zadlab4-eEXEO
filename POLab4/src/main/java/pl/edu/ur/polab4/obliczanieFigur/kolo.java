@@ -20,16 +20,18 @@ public class kolo
     
     public double koloLen()
     {
-        return 1.1;
+        return 2*this.r*Math.PI;
     }
     
     public double koloAr()
     {
-        return 1.1;
+        return Math.PI*this.r*this.r;
     }
     
     public void koloInfo()
     {
-        
+        System.out.println("KOŁO:");
+        System.out.println("Pola koła: "+koloAr());
+        System.out.println("Długość koła: "+koloLen());
     }
 }

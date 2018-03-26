@@ -20,21 +20,24 @@ public class szescian
     
     public double szescianLen()
     {
-        return 1.1;
+            return this.a*12;
     }
     
     public double szescianAr()
     {
-        return 1.1;
+        return (this.a*this.a)*6;
     }
     
     public double szescianVol()
     {
-        return 1.1;
+        return this.a*this.a*this.a;
     }
     
     public void szescianInfo()
     {
-        
+        System.out.println("SZEŚCIAN:");
+        System.out.println("Pole szescianu: "+szescianAr());
+        System.out.println("Długość krawędzi: "+szescianLen());  
+        System.out.println("Objetość sześcianu: "+szescianVol()); 
     }
 }

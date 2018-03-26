@@ -22,16 +22,18 @@ public class prostokat
     
     public double prostokatLen()
     {
-        return 1.1;
+        return this.a+this.a+this.b+this.b;
     }
     
     public double prostokatAr()
     {
-        return 1.1;
+        return this.a*this.b;
     }
     
     public void prostokatInfo()
     {
-        
+        System.out.println("PROSTOKĄT:");
+        System.out.println("Pole prostokwatu: "+prostokatAr());
+        System.out.println("Długość krawędzi: "+prostokatLen());
     }
 }

@@ -18,23 +18,20 @@ public class kula
         this.r = lr;
     }
     
-    public double kulaLen()
-    {
-        return 1.1;
-    }
-    
     public double kulaAr()
     {
-        return 1.1;
+        return 4*Math.PI*this.r*this.r;
     }
     
     public double kulaVol()
     {
-        return 1.1;
+        return Math.PI*this.r*this.r*this.r*(4/3);
     }
     
     public void kulaInfo()
     {
-        
+        System.out.println("KULA:");
+        System.out.println("Pola kuli: "+kulaAr());
+        System.out.println("Objęcość kuli: "+kulaVol());
     }
 }

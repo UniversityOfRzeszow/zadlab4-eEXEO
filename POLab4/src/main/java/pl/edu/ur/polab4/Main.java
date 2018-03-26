@@ -1,10 +1,50 @@
 package pl.edu.ur.polab4;
+import pl.edu.ur.polab4.wprowadzDane.student;    
+import java.util.Scanner;
 
 public class Main 
 {
 
     public static void main(String[] args) 
     {
+        
+       Scanner imp = new Scanner(System.in);
+       
+       int sw,a,b;
+       
+       student[] student = new student[100];
+       
+       for (int i = 0; i < student.length; i++) 
+       {
+            student[i] = new student.setStudent();
+        }
+       
+       System.out.println("Działania: \n 1. Wprowadzanie danych pod wybrany indeks \n 2. Modyfiakcja danych w okreslonym indeksie \n 3. Zerowanie danych studenta \n 4. Informacje o studencie \n 5. Lista wszystkic studentów \n 6. Wyświetlenie zakresu studentów");
+       sw = imp.nextInt();
+       
+       switch(sw){
+            case 1:
+                
+                break;
+            case 2: 
+                
+                break;
+            case 3: 
+                
+                break;
+            case 4:
+                
+                break;
+            case 5: 
+                
+                break;
+            case 6:
+                
+                break;
+            default:
+                
+        }
+       
         /*
         
         ## Zadanie 2

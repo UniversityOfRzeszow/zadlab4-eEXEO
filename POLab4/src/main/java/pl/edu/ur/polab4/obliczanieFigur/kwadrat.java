@@ -20,16 +20,18 @@ public class kwadrat
     
     public double kwadratLen()
     {
-        return 1.1;
+        return this.a*4;
     }
     
     public double kwadratAr()
     {
-        return 1.1;
+        return this.a*this.a;
     }
     
     public void kwadratInfo()
     {
-        
+        System.out.println("KWADRAT:");
+        System.out.println("Pole kwadratu: "+kwadratAr());
+        System.out.println("Długość krawędzi: "+kwadratLen());
     }
 }

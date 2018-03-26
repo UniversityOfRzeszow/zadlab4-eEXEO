@@ -22,23 +22,20 @@ public class stozek
         this.h = hi;
     }
     
-    public double stozekLen()
-    {
-        return 1.1;
-    }
-    
     public double stozekAr()
     {
-        return 1.1;
+        return Math.PI*this.r*(this.r+this.l);
     }
     
     public double stozekVol()
     {
-        return 1.1;
+        return (1/3)*this.r*this.r*Math.PI*this.h;
     }
     
     public void stozekInfo()
     {
-        
+        System.out.println("STOŻEK:");
+        System.out.println("Pole stożka: "+stozekAr());
+        System.out.println("Objetosc stożka: "+stozekVol());
     }
 }
